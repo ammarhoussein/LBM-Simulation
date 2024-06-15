@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6b02b073b3f8b4c4ebcfe34da6e84fb3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - velocityColorMaterial: {instanceID: 0}
+  - lbmComputeShader: {instanceID: 0}
+  - updateTextureComputeShader: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

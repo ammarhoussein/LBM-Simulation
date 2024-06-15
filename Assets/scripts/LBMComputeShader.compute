@@ -1,0 +1,21 @@
+#pragma kernel CSMain
+
+RWTexture3D<float4> velocityField3D;
+
+int gridWidth;
+int gridHeight;
+int gridDepth;
+
+[numthreads(8, 8, 8)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= gridWidth || id.y >= gridHeight || id.z >= gridDepth)
+        return;
+
+    float3 velocity = float3(0, 0, 0);
+
+    // Example of updating velocity based on some condition or rule
+    velocity = float3(id.x / float(gridWidth), id.y / float(gridHeight), id.z / float(gridDepth));
+
+    velocityField3D[id] = float4(velocity, 1.0f);
+}

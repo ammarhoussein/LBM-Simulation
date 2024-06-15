@@ -1,0 +1,104 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# User-specific files #
+#######################
+*.rsuser
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Unity generated files #
+#########################
+*.unityproj
+*.cubemap
+*.pidb.meta
+*.pdb.meta
+*.mdb
+*.sidb
+*.idx
+*.apk
+*.unitypackage
+
+# Asset server generated files #
+################################
+*.unityproj
+*.cubemap
+*.pidb.meta
+*.pdb.meta
+*.mdb
+*.sidb
+*.idx
+
+# Build results #
+#################
+*.exe
+*.dll
+*.ilk
+*.log
+*.dmp
+*.app
+*.api
+*.log
+*.zip
+*.tar.gz
+*.rar
+
+# Compiled dynamic libraries #
+##############################
+*.dll
+*.mdb
+
+# Compiled Static libraries #
+#############################
+*.lib
+*.a
+*.lai
+
+# Logs #
+########
+*.log
+
+# Libraries #
+#############
+/Library/
+
+# Temporary files #
+###################
+/Temp/
+*.tmp
+*.temp
+
+# Object files #
+################
+*.obj
+*.o
+*.lo
+*.la
+*.lai
+*.sbr
+*.res
+*.pdb
+*.idb
+*.exp
+
+# Precompiled Headers #
+#######################
+*.gch
+*.pch
+
+# Directories created by log4net #
+##################################
+log/
+logs/
